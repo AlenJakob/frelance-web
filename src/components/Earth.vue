@@ -1,11 +1,13 @@
 <template>
-  <div class="container">
-    <div class="side">
-      <h1>Welcome to FreeBees</h1>
-      <p>Every day we deal with freelancing so join us now !</p>
+  <div class="container level">
+    <div class="has-text-left">
+      <h1 class="title">Welcome to FreeBees</h1>
+      <p class="title is-6">Every day we deal with freelancing</p>
+      <p class="title is-6">so what are you waiting for ?</p>
+      <button class="button mt-5 is-danger">join us now !</button>
     </div>
 
-    <div class="earth">
+    <div class="earth mt-5">
       <svg
         width="379"
         height="287"
@@ -405,9 +407,9 @@ export default {};
 
 <style scoped>
 .container {
-  display: flex;
+  /* display: flex;
   max-width: 1200px;
-  margin-top: 3rem;
+  margin-top: 3rem; */
 }
 .side {
   width: 60%;
