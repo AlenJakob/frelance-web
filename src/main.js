@@ -1,8 +1,8 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
-import './hamburger-menu.js'
-require('@/assets/scss/main.scss');
+
+require('@/assets/scss/additional-mixin.scss');
 
 Vue.config.productionTip = false;
 

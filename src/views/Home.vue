@@ -1,6 +1,7 @@
 <template>
   <div class="hero">
-    <Earth />
+    <SectionEarth />
+    <Testimonials />
   </div>
 </template>
 
@@ -8,11 +9,12 @@
 // @ is an alias to /src
 // import Earth from "@/components/Earth";
 
-import Earth from "@/components/Earth.vue";
-
+import SectionEarth from "@/components/SectionEarth";
+import Testimonials from "@/components/Testimonials";
 export default {
   components: {
-    Earth
+    SectionEarth,
+    Testimonials
   }
 };
 </script>

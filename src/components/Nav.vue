@@ -1,9 +1,9 @@
 <template>
-  <nav class="navbar mb-6" role="navigation" aria-label="main navigation">
+  <nav class="container navbar mb-6 " role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
+      <router-link class="navbar-item" to="/">
         <logo />
-      </a>
+      </router-link>
 
       <a
         @click="show"
@@ -19,15 +19,13 @@
       </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-menu">
       <div class="navbar-end">
-        <div class="navbar-item">
-            <router-link to="/" class="navbar-item">Home</router-link>
-
-            <router-link to="/Documentation" class="navbar-item">About Us</router-link>
-            <router-link to="/Documentation" class="navbar-item">Our Projects</router-link>
-            <router-link to="/Documentation" class="navbar-item">Contact us</router-link>
-          
+        <div class="navbar-item buttons">
+          <router-link to="/" class="navbar-item is-danger button is-outlined is-small">Home</router-link>
+          <router-link to="/Documentation" class="navbar-item is-danger button is-outlined is-small">About Us</router-link>
+          <router-link to="/about" class="navbar-item is-danger button is-outlined is-small">Our Projects</router-link>
+          <router-link to="/contact" class="navbar-item is-danger button is-outlined is-small">Contact us</router-link>
         </div>
       </div>
     </div>
@@ -49,7 +47,8 @@ export default {
 </script>
 
 <style>
-.navbar {
+.button.is-danger.is-outlined:last-child {
+  margin-right: 0.5rem;
 }
 .menu-show {
   display: block !important;

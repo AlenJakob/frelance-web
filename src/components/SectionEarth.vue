@@ -1,9 +1,9 @@
 <template>
-  <div class="container level">
+  <div class="container level ">
     <div class="has-text-left">
       <h1 class="title">Welcome to FreeBees</h1>
       <p class="title is-6">Every day we deal with freelancing</p>
-      <p class="title is-6">so what are you waiting for ?</p>
+      <p class="title is-6">So what are you waiting for ?</p>
       <button class="button mt-5 is-danger">join us now !</button>
     </div>
 
@@ -412,10 +412,8 @@ export default {};
   margin-top: 3rem; */
 }
 .side {
-  width: 60%;
 }
 .earth {
-  width: 40%;
 }
 #shadow_earth {
   animation: moveshadow 3s infinite forwards;
@@ -494,21 +492,21 @@ export default {};
   animation-delay: 0.4s;
 }
 #pin_2-l {
-  animation-delay: 0.8s;
+  animation-delay: 1s;
 }
 #pin_3-l {
-  animation-delay: 1.2s;
-}
-#pin_4-l {
   animation-delay: 1.4s;
 }
-#pin_dark-1 {
-  animation-delay: 1.6s;
-}
-#pin_dark-2 {
+#pin_4-l {
   animation-delay: 1.8s;
 }
+#pin_dark-1 {
+  animation-delay: 2.2s;
+}
+#pin_dark-2 {
+  animation-delay: 2.8s;
+}
 #pin_dark-3 {
-  animation-delay: 2s;
+  animation-delay: 3.2s;
 }
 </style>
