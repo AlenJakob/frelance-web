@@ -22,7 +22,7 @@
         </div>
         <a
           v-bind:class="[(color === `yellow`) ? `is-warning` : (color === `red`) ? `is-danger` : (color === `green` ) ? `is-success` : `is-dark`]"
-          class="button inverted "
+          class="button inverted"
         >Check out</a>
       </div>
     </div>
@@ -33,14 +33,14 @@
 export default {
   props: ["offer", "color"],
   data() {
-    return {
-    };
+    return {};
   }
 };
 </script>
 
 <style>
 .card-hover:hover {
+  transition: 0.2s;
   box-shadow: 0 0 3px rgb(153, 153, 153);
 }
 </style>

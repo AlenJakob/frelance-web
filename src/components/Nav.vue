@@ -22,10 +22,10 @@
     <div class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item buttons">
-          <router-link to="/" class="navbar-item is-danger button is-outlined is-small">Home</router-link>
-          <router-link to="/about" class="navbar-item is-danger button is-outlined is-small">About Us</router-link>
-          <router-link to="/projects" class="navbar-item is-danger button is-outlined is-small">Our Projects</router-link>
-          <router-link to="/contact" class="navbar-item is-danger button is-outlined is-small">Contact us</router-link>
+          <router-link to="/home" class="navbar-item is-dark is-outlined button is-small">Home</router-link>
+          <router-link to="/about" class="navbar-item is-dark is-outlined button is-small">About Us</router-link>
+          <router-link to="/projects" class="navbar-item is-dark is-outlined button is-small">Our Projects</router-link>
+          <router-link to="/contact" class="navbar-item is-dark is-outlined button is-small">Contact us</router-link>
         </div>
       </div>
     </div>
