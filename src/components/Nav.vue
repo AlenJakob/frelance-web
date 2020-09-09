@@ -47,7 +47,7 @@ export default {
 </script>
 
 <style>
-.button.is-danger.is-outlined:last-child {
+.button.is-dark.is-outlined:last-child {
   margin-right: 0.5rem;
 }
 .menu-show {
