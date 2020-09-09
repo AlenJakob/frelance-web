@@ -20,7 +20,14 @@
             <li class="mb-5" v-for="el in offer.benefits" :key="el.id">{{el}}</li>
           </ul>
         </div>
-        <Star />
+
+        <!-- ********* -->
+        <div class="columns">
+          <div v-for="star in this.offer.stars" :key="star.star">
+            <Star />
+          </div>
+        </div>
+        <!-- ********* -->
         <a
           v-bind:class="[(color === `yellow`) ? `is-warning` : (color === `red`) ? `is-danger` : (color === `green` ) ? `is-success` : `is-dark`]"
           class="button inverted"
@@ -39,6 +46,9 @@ export default {
   },
   data() {
     return {};
+  },
+  mounted() {
+    console.log(this.offer);
   }
 };
 </script>
