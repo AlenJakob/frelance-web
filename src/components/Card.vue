@@ -22,9 +22,9 @@
         </div>
 
         <!-- ********* -->
-        <div class="columns">
+        <div class="columns star-position mb-5 mt-5">
           <div v-for="star in this.offer.stars" :key="star.star">
-            <Star />
+            <Star class="star" />
           </div>
         </div>
         <!-- ********* -->
@@ -57,5 +57,12 @@ export default {
 .card-hover:hover {
   transition: 0.2s;
   box-shadow: 0 0 3px rgb(153, 153, 153);
+}
+.star-position {
+  display: flex;
+  flex-direction: row;
+}
+.star {
+  transform: scale(1.3);
 }
 </style>
