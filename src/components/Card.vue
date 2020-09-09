@@ -6,7 +6,7 @@
         <div class="media">
           <div class="media-left">
             <figure class="image is-48x48">
-              <img :src="require( `@/assets/img/${color}.png`)" />
+              <img :src="require(`@/assets/img/${color}.png`)" />
             </figure>
           </div>
           <div class="media-content level">
@@ -20,6 +20,7 @@
             <li class="mb-5" v-for="el in offer.benefits" :key="el.id">{{el}}</li>
           </ul>
         </div>
+        <Star />
         <a
           v-bind:class="[(color === `yellow`) ? `is-warning` : (color === `red`) ? `is-danger` : (color === `green` ) ? `is-success` : `is-dark`]"
           class="button inverted"
@@ -30,8 +31,12 @@
 </template>
 
 <script>
+import Star from "./Star";
 export default {
   props: ["offer", "color"],
+  components: {
+    Star
+  },
   data() {
     return {};
   }

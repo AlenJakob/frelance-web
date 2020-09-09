@@ -1,5 +1,5 @@
 <template>
-  <div class="container level mt-6 mb-6 ">
+  <div class="container level mt-6 mb-6">
     <div class="has-text-left">
       <h1 class="title">Welcome to FreeBees</h1>
       <p class="title is-6">Every day we deal with freelancing</p>
