@@ -4,6 +4,9 @@
     <div class="columns section is-centered">
       <Card v-for="offer in offerPackages" :key="offer.stars" :offer="offer" :color="offer.color" />
     </div>
+    <div class="columns">
+      <Brands />
+    </div>
   </div>
 </template>
 
@@ -13,10 +16,12 @@
 
 import SectionEarth from "@/components/SectionEarth";
 import Card from "@/components/Card";
+import Brands from "@/components/Brands";
 export default {
   components: {
     SectionEarth,
-    Card
+    Card,
+    Brands
   },
   data() {
     return {
@@ -78,5 +83,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "1",
+        "companyName": "Jonesix",
+        "name": "John",
+        "lastName": "Ballerup",
+        "review": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quod veritatis sequi pariatur culpa.",
+        "rate": "5",
+        "starColor": "red-star.png",
+        "brandImg": "boy.png",
+        "date": "13:23 PM - 1 August 2017"
+    },
+    {
+        "id": "2",
+        "companyName": "NailsPrince",
+        "name": "Kathrine",
+        "lastName": "Mriau",
+        "review": "Lorem, ipsum dolor sit amet . Quo consequatur praesentium aperiam maiores, minima dolore atque molestiae ullam vitae, voluptates hic ipsum.",
+        "rate": "4",
+        "starColor": "yellow-star.png",
+        "brandImg": "girl.png",
+        "date": "11:09 PM - 1 Jan 2016"
+    },
+    {
+        "id": "3",
+        "companyName": "WheelSpeed",
+        "name": "Jan",
+        "lastName": "Doe",
+        "review": "Minima dolore atque molestiae ullam vitae,Voluptates hic voluptates hic ipsum.",
+        "rate": "5",
+        "starColor": "green-star.png",
+        "brandImg": "boy.png",
+        "date": "15:12 PM - 1 September 2019"
+    }
+]

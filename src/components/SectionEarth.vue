@@ -4,7 +4,7 @@
       <h1 class="title">Welcome to FreeBees</h1>
       <p class="title is-6">Every day we deal with freelancing</p>
       <p class="title is-6">So what are you waiting for ?</p>
-      <button class="button mt-5 is-danger">join us now !</button>
+      <button class="button mt-5 is-danger">Just join us now !</button>
     </div>
 
     <div class="earth mt-5">

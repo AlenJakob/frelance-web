@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import Star from "./Star";
+import Star from "./Rating/Star";
 export default {
   props: ["offer", "color"],
   components: {
@@ -48,7 +48,6 @@ export default {
     return {};
   },
   mounted() {
-    console.log(this.offer);
   }
 };
 </script>
@@ -66,3 +65,4 @@ export default {
   transform: scale(1.3);
 }
 </style>
+
