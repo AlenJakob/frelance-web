@@ -1,5 +1,9 @@
 <template>
-  <nav class="container navbar mb-6 " role="navigation" aria-label="main navigation">
+  <nav
+    class="container navbar mb-6 "
+    role="navigation"
+    aria-label="main navigation"
+  >
     <div class="navbar-brand">
       <router-link class="navbar-item" to="/">
         <logo />
@@ -22,10 +26,26 @@
     <div class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item buttons">
-          <router-link to="/home" class="navbar-item is-dark is-outlined button is-small">Home</router-link>
-          <router-link to="/about" class="navbar-item is-dark is-outlined button is-small">About Us</router-link>
-          <router-link to="/projects" class="navbar-item is-dark is-outlined button is-small">Our Projects</router-link>
-          <router-link to="/contact" class="navbar-item is-dark is-outlined button is-small">Contact us</router-link>
+          <router-link
+            to="/home"
+            class="navbar-item is-danger is-outlined button is-small"
+            >Home</router-link
+          >
+          <router-link
+            to="/about"
+            class="is-big navbar-item is-danger is-outlined button is-small"
+            >About Us</router-link
+          >
+          <router-link
+            to="/projects"
+            class="navbar-item is-danger is-outlined button is-small"
+            >Our Projects</router-link
+          >
+          <router-link
+            to="/contact"
+            class="navbar-item is-danger is-outlined button is-small"
+            >Contact us</router-link
+          >
         </div>
       </div>
     </div>
@@ -47,10 +67,27 @@ export default {
 </script>
 
 <style>
-.button.is-dark.is-outlined:last-child {
-  margin-right: 0.5rem;
-}
 .menu-show {
   display: block !important;
 }
+@media only screen and (max-width: 600px) {
+  .navbar-item.buttons a {
+    max-width: 210px;
+    margin: 0.5rem auto;
+  }
+  .navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons .button:not(:last-child):not(.is-fullwidth) {
+  margin-right: auto !important;
+}
+}
+@media only screen and (min-width: 600px){
+.button:last-child{
+  margin-right: 0.5rem!important;
+}
+}
+
 </style>

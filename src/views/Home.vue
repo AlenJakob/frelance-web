@@ -5,7 +5,7 @@
       <Card v-for="offer in offerPackages" :key="offer.stars" :offer="offer" :color="offer.color" />
     </div>
     <div class="columns">
-      <Brands />
+      <userTrustUs />
     </div>
   </div>
 </template>
@@ -16,12 +16,12 @@
 
 import SectionEarth from "@/components/SectionEarth";
 import Card from "@/components/Card";
-import Brands from "@/components/Brands";
+import userTrustUs from "@/components/userTrustUs";
 export default {
   components: {
     SectionEarth,
     Card,
-    Brands
+    userTrustUs
   },
   data() {
     return {
