@@ -1,12 +1,12 @@
 <template>
   <div class="container px-6">
     <h1 class="title">Latest Projects</h1>
-    <div
-      class="columns is-multiline is-mobile"
-      v-for="project in projectList"
-      :key="project.id"
-    >
-      <CardProject class="" />
+    <div class="columns is-multiline is-centered my-6">
+      <CardProject
+        v-for="project in projectList"
+        :key="project.id"
+        class="column mx-4 my-4 is-4 "
+      />
     </div>
   </div>
 </template>
