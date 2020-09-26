@@ -5,6 +5,7 @@
       <CardProject
         v-for="project in projectList"
         :key="project.id"
+        :project="project"
         class="column mx-4 my-4 is-4 "
       />
     </div>

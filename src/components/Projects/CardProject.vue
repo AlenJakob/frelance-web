@@ -11,24 +11,40 @@
     <div class="card-content">
       <div class="media">
         <div class="media-content">
-          <p class="title is-4">John Smith</p>
-          <p class="subtitle is-6">@johnsmith</p>
+          <p class="title is-4">{{ project.author }}</p>
+          <p class="subtitle is-6">
+            <router-link class="has-text-danger" to="/contact">
+              alenjakob@gmail.com
+            </router-link>
+          </p>
         </div>
       </div>
 
       <div class="content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
-        iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
-        <a href="#">#responsive</a>
+        {{ project.content.substring(0,100)}}...
+        <div class="content">
+          <ul
+            type="1"
+            v-for="tech in project.tech"
+            :key="Math.random(tech.id)"
+          >
+            <li>
+              <a>{{ tech }}</a>
+            </li>
+          </ul>
+        </div>
         <br />
-        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+        <time datetime="2016-1-1">{{ project.date }}</time>
       </div>
+      <button class="is-danger is-outlined button">View</button>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["project"]
+};
 </script>
 
 <style>
