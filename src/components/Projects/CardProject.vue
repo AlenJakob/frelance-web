@@ -1,5 +1,5 @@
 <template>
-  <div class="card bm--card-equal-height">
+  <div class="pb-6 card bm--card-equal-height">
     <div class="card-image">
       <figure class="image ">
         <img
@@ -7,11 +7,11 @@
           alt="Placeholder image"
         />
       </figure>
-      <div class="my-3 has-text-right">
-        <time datetime="2016-1-1">{{ project.date }}</time>
-      </div>
     </div>
     <div class="card-content">
+      <div class="my-3 ">
+        <time datetime="2016-1-1">{{ project.date }}</time>
+      </div>
       <div class="media">
         <div class="media-content">
           <p class="title is-4">{{ project.author }}</p>
