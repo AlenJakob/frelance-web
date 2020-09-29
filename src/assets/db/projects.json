@@ -17,7 +17,7 @@
         "date": "22 August 2020",
         "img": "img2.png",
         "title": "Lorem Ipsum",
-        "content": "lorem ipsum text content example",
+        "content": "lorem ipsum text content example Consectetur adipiscing elit.",
         "author": "Jannet Deep 2",
         "tech": [
             "Css",
@@ -30,7 +30,7 @@
         "date": "7 January 2020",
         "img": "img2.png",
         "title": "Lorem Ipsum",
-        "content": "lorem ipsum text content example",
+        "content": "lorem ipsum text content example Consectetur adipiscing elit.",
         "author": "Jannet Deep 3",
         "tech": [
             "Css",
@@ -43,7 +43,7 @@
         "date": "9 February 2020",
         "img": "img2.png",
         "title": "Lorem Ipsum",
-        "content": "lorem ipsum text content example",
+        "content": "lorem ipsum text content example. Consectetur adipiscing elit.",
         "author": "Jannet Deep 4",
         "tech": [
             "Css",
@@ -56,7 +56,7 @@
         "date": "3 March 2020",
         "img": "img2.png",
         "title": "Lorem Ipsum",
-        "content": "lorem ipsum text content example",
+        "content": "lorem ipsum text content example. Consectetur adipiscing elit.",
         "author": "Jannet Deep 5",
         "tech": [
             "Css",

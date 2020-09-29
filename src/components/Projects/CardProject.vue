@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card bm--card-equal-height">
     <div class="card-image">
       <figure class="image ">
         <img
@@ -7,6 +7,9 @@
           alt="Placeholder image"
         />
       </figure>
+      <div class="my-3 has-text-right">
+        <time datetime="2016-1-1">{{ project.date }}</time>
+      </div>
     </div>
     <div class="card-content">
       <div class="media">
@@ -21,22 +24,18 @@
       </div>
 
       <div class="content">
-        {{ project.content.substring(0,100)}}...
+        {{ project.content.substring(0, 70) }}...
         <div class="content">
-          <ul
-            type="1"
-            v-for="tech in project.tech"
-            :key="Math.random(tech.id)"
-          >
+          <ul type="1" v-for="tech in project.tech" :key="Math.random(tech.id)">
             <li>
               <a>{{ tech }}</a>
             </li>
           </ul>
         </div>
-        <br />
-        <time datetime="2016-1-1">{{ project.date }}</time>
       </div>
-      <button class="is-danger is-outlined button">View</button>
+      <button class="is-danger is-outlined button is-pulled-right mb-5">
+        View
+      </button>
     </div>
   </div>
 </template>
@@ -48,4 +47,7 @@ export default {
 </script>
 
 <style>
+.card {
+  height: 100%;
+}
 </style>
