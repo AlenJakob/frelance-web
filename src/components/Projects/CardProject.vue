@@ -3,7 +3,7 @@
     <div class="card-image">
       <figure class="image ">
         <img
-          src="https://bulma.io/images/placeholders/1280x960.png"
+          src="https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_1280.jpg"
           alt="Placeholder image"
         />
       </figure>

@@ -8,7 +8,7 @@
       <div class="container columns">
         <div class="column is-2">
           <figure class="image is-256x256">
-            <img src="https://bulma.io/images/placeholders/256x256.png" />
+            <img src="https://cdn.pixabay.com/photo/2020/12/19/23/13/girls-5845644_1280.jpg" />
           </figure>
         </div>
         <div class="column is-8">
