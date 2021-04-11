@@ -29,5 +29,7 @@ npm run serve
 npm run build
 ```
 
+### View
 
+!View [project photo](/web_services.png)
 
