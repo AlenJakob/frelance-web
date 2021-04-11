@@ -4,6 +4,15 @@
 [project link](https://web-services-802a4.web.app)
 
 Website " Service Web Development "
+# Stack:
+``sh
+- HTML5
+- CSS3
+- Firebase
+- JavaScript
+- Vue.js
+- Bulma
+``
 
 ## Project setup
 ```
@@ -20,12 +29,5 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
