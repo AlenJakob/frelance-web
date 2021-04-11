@@ -5,14 +5,14 @@
 
 Website " Service Web Development "
 # Stack:
-``sh
+```sh
 - HTML5
 - CSS3
 - Firebase
 - JavaScript
 - Vue.js
 - Bulma
-``
+```
 
 ## Project setup
 ```
