@@ -8,10 +8,10 @@ Website " Service Web Development "
 ```sh
 - HTML5
 - CSS3
+- Bulma
 - Firebase
 - JavaScript
 - Vue.js
-- Bulma
 ```
 
 ## Project setup
